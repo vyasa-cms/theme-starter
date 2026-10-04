@@ -1,0 +1,4 @@
+name = "my-theme"
+version = 1
+author = "You"
+required_api = 1
