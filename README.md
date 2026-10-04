@@ -109,7 +109,8 @@ VYASA_SIGNING_KEY=<secret hex> scripts/pack.sh
 # dist/my-theme-3.vytheme and dist/my-theme-3.vytheme.sig
 ```
 
-Upload both: the `.sig` goes in the **Signature** field next to the file.
+Upload both at once: select the `.vytheme` and its `.sig` together in the
+**Upload package** file picker.
 A theme without a script needs none of this.
 
 ## 6. Publish
