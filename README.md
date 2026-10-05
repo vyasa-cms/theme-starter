@@ -34,9 +34,11 @@ docker compose exec app cat .run/setup-token
 
 Open <http://localhost:3000/admin/setup>, paste the token and create the
 first administrator. You also need the `vyasa` command on your machine
-for packing: download the archive for your platform from
-<https://github.com/vyasa-cms/vyasa/releases>, extract it and put `vyasa`
-on your `PATH`.
+for packing; the installer puts it on your `PATH`:
+
+```bash
+curl -fsSL https://vyasa.site/install.sh | sh
+```
 
 ## 2. Change the look
 
